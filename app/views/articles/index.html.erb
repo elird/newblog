@@ -1,0 +1,16 @@
+<% @arti.each do |a| %>
+
+
+          <h1 class="mt-4"><%= a.titulo %></h1>
+         <hr>
+          <p>Publicado el <%= a.fecha %></p>
+         <hr>
+         <img class="img-fluid rounded" src="<%= a.image %>" alt="">
+          <hr>
+
+          <!-- Post Content -->
+          <%= a.contenido %>
+          <!--  FIN  Post Content -->
+          
+          <hr>
+<%end%>  

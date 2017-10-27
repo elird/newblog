@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.1.1'
+ruby '2.3.1'
 
 gem 'rails', '4.1.5'
 gem 'sass-rails', '~> 4.0.3'
@@ -9,12 +9,8 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'devise', '~> 3.3.0'
-
-group :development, :test do
-	gem 'sqlite3'
-	gem 'spring'
-end
-
+gem 'json'
+gem 'sqlite3'
 group :production do
 	gem 'pg'
 	gem 'rails_12factor'
